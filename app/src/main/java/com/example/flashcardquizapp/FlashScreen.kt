@@ -71,45 +71,45 @@ fun FlashCardScreen(onFinish: () -> Unit) {
     val flashCards = remember {
         mutableStateListOf(
             FlashCard(
-            question = "What is the capital of France?",
-            answer = "Paris"
-        ),
-        FlashCard(
-            question = "What is Kotlin?",
-            answer = "A modern programming language for Android development."
-        ),
-        FlashCard(
-            question = "What is OOP?",
-            answer = "Object Oriented Programming."
-        ),
-        FlashCard(
-            question = "What is JVM?",
-            answer = "Java Virtual Machine."
-        ),
-        FlashCard(
-            question = "What is Android Studio?",
-            answer = "The official IDE for Android app development."
-        ),
-        FlashCard(
-            question = "What is a Variable?",
-            answer = "A container used to store data."
-        ),
-        FlashCard(
-            question = "What is a Function?",
-            answer = "A reusable block of code that performs a specific task."
-        ),
-        FlashCard(
-            question = "What is Jetpack Compose?",
-            answer = "Android's modern toolkit for building native UI."
-        ),
-        FlashCard(
-            question = "What is Git?",
-            answer = "A version control system used to track code changes."
-        ),
-        FlashCard(
-            question = "What is GitHub?",
-            answer = "A platform for hosting and collaborating on Git repositories."
-        )
+                question = "What is a Composable function?",
+                answer = "A function used to describe UI in Jetpack Compose."
+            ),
+            FlashCard(
+                question = "What is ViewModel used for?",
+                answer = "To store and manage UI-related data across configuration changes."
+            ),
+            FlashCard(
+                question = "What is Room Database?",
+                answer = "A local database library built on SQLite for Android."
+            ),
+            FlashCard(
+                question = "What is MVVM architecture?",
+                answer = "Model-View-ViewModel, a design pattern for Android apps."
+            ),
+            FlashCard(
+                question = "What is State in Jetpack Compose?",
+                answer = "Data that determines what is displayed on the screen."
+            ),
+            FlashCard(
+                question = "What is LazyColumn?",
+                answer = "A Compose component for displaying scrollable lists efficiently."
+            ),
+            FlashCard(
+                question = "What is Retrofit used for?",
+                answer = "Making API calls in Android applications."
+            ),
+            FlashCard(
+                question = "What is Dependency Injection?",
+                answer = "A technique for providing dependencies to classes automatically."
+            ),
+            FlashCard(
+                question = "What is Navigation Compose?",
+                answer = "A library used for screen navigation in Jetpack Compose."
+            ),
+            FlashCard(
+                question = "What is Coroutine used for?",
+                answer = "Handling asynchronous tasks without blocking the UI thread."
+            )
         )
     }
     if (flashCards.isEmpty()) {
