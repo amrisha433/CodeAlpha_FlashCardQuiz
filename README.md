@@ -99,10 +99,4 @@ Click the Run button or press Shift+F10
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ⭐ If you found this project helpful, please give it a star!
